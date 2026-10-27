@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Soweto Ink</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">SOWETO<span>INK</span></a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            <a href="contact.html" class="nav-cta">Book Session</a>
+            <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>GET IN TOUCH</h1>
+            <p style="color: var(--text-muted); margin-top: 10px;">Book your session or ask a question.</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container" style="max-width: 600px;">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="+267 XX XXX XXX" required>
+                </div>
+                <div class="form-group">
+                    <label>Service of Interest</label>
+                    <select style="width: 100%; padding: 14px; background: var(--surface-light); border: 1px solid var(--border); color: var(--text); font-family: var(--font-body);">
+                        <option>Tattoo</option>
+                        <option>Piercing</option>
+                        <option>Jewelry / Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Message / Idea Description</label>
+                    <textarea rows="5" placeholder="Tell us what you have in mind..." required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+            
+            <div style="margin-top: 40px; text-align: center; color: var(--text-muted);">
+                <p><i class="fas fa-map-marker-alt text-accent"></i> Gaborone, Botswana</p>
+                <p style="margin-top: 10px;"><i class="fas fa-envelope text-accent"></i> hello@sowetoink.co.bw</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Soweto Ink. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
